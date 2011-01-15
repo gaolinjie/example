@@ -6,8 +6,8 @@ HOWTO use Git manage your project
 ---------------
 
 $ sudo apt-get install git git-core
-# 使用该命令可以在Ubuntu上安装Git的核心部件，此外还可以利用别的命令安装一些Git的辅助工具，此
-处略过。
+# 使用该命令可以在Ubuntu上安装Git的核心部件，此外还可以利用别的命令安装一些Git的辅助工具，
+# 此处略过。
 
 
 
@@ -27,26 +27,26 @@ $ sudo apt-get install git git-core
 
 $ git config --global user.name "gaolinjie"
 $ git config --global user.email gaolinjie@gmail.com
-# 在本地设置用户提交项目使用的用户名和邮箱，此处设置的用户名为gaolinjie，邮箱为
-gaolinjie@gmail.com。
+# 在本地设置用户提交项目使用的用户名和邮箱，此处设置的用户名为gaolinjie，
+# 邮箱为gaolinjie@gmail.com。
 
 $ mkdir example
 $ cd example
 # 在本地用户目录中建立一个名为example的目录作为项目的工作树，进入该目录。
 
 $ git init
-# 初始化Git仓库，在当前目录创建一个.git目录，即为Git仓库，原来的当前目录不再是普通的文档目
-录，而是Git工作树。
+# 初始化Git仓库，在当前目录创建一个.git目录，即为Git仓库，原来的当前目录不再是普通的文档
+# 目录，而是Git工作树。
 
 $ touch README
 $ git add README
 # 新建一个README文件，然后生成Git仓库所能接受的数据格式，即快照。
 
 $ git commit -m 'first commit'
-# 将临时存储快照的区域（索引）提交到仓库中，每次提交就意味着版本的一次更新，first commit为版
-本更新信息。
-# 请注意，现在的更新只是提交到了本地的项目仓库中，服务器中的项目仓库并没更新(实际上，此时服务器
-中还未建立相应的项目仓库）。
+# 将临时存储快照的区域（索引）提交到仓库中，每次提交就意味着版本的一次更新，first commit为
+# 版本更新信息。
+# 请注意，现在的更新只是提交到了本地的项目仓库中，服务器中的项目仓库并没更新(实际上，此时服务
+# 器中还未建立相应的项目仓库）。
 
 $ git remote add origin git@github.com:gaolinjie/example.git
 # 在github服务器中创建example项目仓库，其中origin为默认的远程仓库。
