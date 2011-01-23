@@ -13,7 +13,7 @@ dfadsfadsfsadfsad:
 dafasdfsadffffffffffffffffffffffffffffffffffffff  
 dfadsfasfdasfasfasdfsad.  
   
-[![](http://farm4.static.flickr.com/3447/3378092101_40a62a04b2_m.jpg)](http://farm4.static.flickr.com/3447/3378092101_b064d8e339_o.jpg)  
+[![](http://www.flickr.com/photos/carlitos/4521288030/)](http://www.flickr.com/photos/carlitos/4521288030/)  
   
 * [Three20.info][]
 * [Three20 Mailing List][]
