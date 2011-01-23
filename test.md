@@ -33,6 +33,11 @@ Style, and UI. Each was dependent upon the previous aspect in the list, and coll
 formed the Three20 library. Over the next five months a great deal of time was invested in
 drawing lines in the sand in order to create a conceptual divide between the four aspects.  
   
+  
+  
+  
+  
+
 Modular Three20
 ---------------
 
