@@ -13,7 +13,7 @@ dfadsfadsfsadfsad:
 dafasdfsadffffffffffffffffffffffffffffffffffffff  
 dfadsfasfdasfasfasdfsad.  
   
-[![](http://www.flickr.com/photos/carlitos/4521288030/)](http://www.flickr.com/photos/carlitos/4521288030/)  
+[![](http://arduino.cc/en/uploads/Main/arduino_uno_test.jpg)](http://arduino.cc/en/uploads/Main/arduino_uno_test.jpg)  
   
 * [Three20.info][]
 * [Three20 Mailing List][]
