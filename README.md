@@ -1,5 +1,5 @@
             example  
   
   
-[flickr](http://www.flickr.com/tour/share/)  
-![flickrimage](http://www.flickr.com/tour/share/)
+[良有](http://www.flickr.com/photos/30587377@N06/5135274043/)  
+![良有](http://www.flickr.com/photos/30587377@N06/5135274043/)
