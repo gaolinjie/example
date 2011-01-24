@@ -8,16 +8,16 @@ HOWTO use Git manage your project
     # 此处略过。  
     
 ###建立github账户    
-登录https://github.com/申请账户，github是一个提供Git服务的站点，可以利用它作为我们管理项
+登录`https://github.com/`申请账户，github是一个提供Git服务的站点，可以利用它作为我们管理项
 目的服务器。  
    
 ###在github上和本地建立项目仓库     
-在github账户主页上点击Create a Repository创建新的仓库，填入项目名为example和项目介绍，然
+在github账户主页上点击`Create a Repository`创建新的仓库，填入项目名为example和项目介绍，然
 后按照提示的教程完成新项目仓库的创建。  
     $ git config --global user.name "gaolinjie"  
     $ git config --global user.email gaolinjie@gmail.com  
     # 在本地设置用户提交项目使用的用户名和邮箱，此处设置的用户名为gaolinjie，  
-    # 邮箱为gaolinjie@gmail.com。  
+    # 邮箱为`gaolinjie@gmail.com`。  
   
     $ mkdir example  
     $ cd example  
@@ -39,7 +39,7 @@ HOWTO use Git manage your project
   
     $ git remote add origin git@github.com:gaolinjie/example.git  
     # 在github服务器中创建example项目仓库，其中origin为默认的远程仓库。  
-    # git@github.com:gaolinjie/example.git为远程仓库的SSH地址。  
+    # `git@github.com:gaolinjie/example.git`为远程仓库的SSH地址。  
   
     $ git push origin master  
     # 将项目仓库本地版本更新推送到远端仓库中，master为默认的远程仓库origin中的主分支。  
