@@ -21,8 +21,8 @@ Git最初的开发动力来自于BitKeeper和Monotone。 Git最初只是作为�
 
 Linus Torvalds自嘲地取了这个名字"git"。在英式英语中指一个愚笨或者不开心的人。  
   
-  “I'm an egotistical bastard, and I name all my projects after myself.    
-   First Linux, now git.”  
+    “I'm an egotistical bastard, and I name all my projects after myself.    
+     First Linux, now git.”  
   
 Git的官方维基也给出了多种其他的关于名字的解释。  
 
