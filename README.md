@@ -4,10 +4,7 @@
 这是一个演示如何使用Git来进行项目管理的小型示例项目。    
      
 什么是Git？   
----------   
-  
-以下是引自维基百科对Git的介绍：  
-http://zh.wikipedia.org/zh/Git/  
+---------     
   
 Git是一个由Linus Torvalds为了更好地管理linux内核开发而创立的分布式版本控制/软件配置管理软
 件。需要注意的是和GNU Interactive Tools，一个类似Norton Commander界面的文件管理器相区
