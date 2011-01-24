@@ -2,16 +2,16 @@ HOWTO use Git manage your project
 =================================  
   
   
-#在Ubuntu上安装Git  
+##在Ubuntu上安装Git  
     $ sudo apt-get install git git-core  
     # 使用该命令可以在Ubuntu上安装Git的核心部件，此外还可以利用别的命令安装一些Git的辅助工具，  
     # 此处略过。  
     
-#建立github账户    
+##建立github账户    
 登录https://github.com/申请账户，github是一个提供Git服务的站点，可以利用它作为我们管理项
 目的服务器。  
    
-#在github上和本地建立项目仓库     
+##在github上和本地建立项目仓库     
 在github账户主页上点击Create a Repository创建新的仓库，填入项目名为example和项目介绍，然
 后按照提示的教程完成新项目仓库的创建。  
     $ git config --global user.name "gaolinjie"  
@@ -44,7 +44,7 @@ HOWTO use Git manage your project
     $ git push origin master  
     # 将项目仓库本地版本更新推送到远端仓库中，master为默认的远程仓库origin中的主分支。  
   
-#删除仓库中的某个文件并更新远程仓库  
+##删除仓库中的某个文件并更新远程仓库  
     $ git rm INDEX  
     # 删除本地工作树中的INDEX文件。  
   
