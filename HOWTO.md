@@ -8,13 +8,11 @@ HOWTO use Git manage your project
     $ sudo apt-get install git git-core  
     # 使用该命令可以在Ubuntu上安装Git的核心部件，此外还可以利用别的命令安装一些Git的辅助工具，  
     # 此处略过。  
-  
 建立github账户  
 ------------  
   
 登录https://github.com/申请账户，github是一个提供Git服务的站点，可以利用它作为我们管理项
 目的服务器。  
-
 在github上和本地建立项目仓库  
 -----------------------  
   
@@ -50,7 +48,6 @@ HOWTO use Git manage your project
   
     $ git push origin master  
     # 将项目仓库本地版本更新推送到远端仓库中，master为默认的远程仓库origin中的主分支。  
-  
 删除仓库中的某个文件并更新远程仓库  
 ---------------------------  
   
