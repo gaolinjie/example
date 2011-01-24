@@ -59,4 +59,20 @@ Subversion系统则在乎檔案内容的差异。因此Git更像一個檔案系�
 
 ###移植性：
 
-在Windows平台上有msysgit與TortoiseGit可資利用。TortoiseGit還提供有GUI。
+在Windows平台上有msysgit與TortoiseGit可資利用。TortoiseGit還提供有GUI。  
+  
+  
+什么是GitHub？  
+------------  
+
+GitHub是一个用于使用Git版本控制系统的项目的基于互联网的存取服务。它是由GitHub公司（先前被称 
+作用Logical Awesome）的开发者Chris Wanstrath,PJ Hyett,和Tom Preston-Werner使用
+Ruby on Rails写成的。GitHub同时提供商业账户和为开源项目提供的免费账户。根据在2009年的Git
+用户调查，GitHub是最流行的Git存取站点。  
+
+它提供了像feedsfollowers和显示开发者们怎样在他们的版本库的版本上工作的网络图表。  
+
+GitHub也经营了一个pastebin风格的站点，维基用于个人信息库，并且可以通过一个git版本库进行编辑
+网页。  
+
+截至2010年1月,GitHub仍然由GttHub公司所经营。  
