@@ -53,6 +53,23 @@ HOWTO use Git manage your project
   
     $ git push origin master  
     # 将更改应用到远程仓库。  
+  
+###新用户使用远程仓库  
+    $ ssh-keygen -t rsa -C "newuser@gmail.com"
+    # 生成新用户的SSH公钥，`newuser@gmail.com`为新用户的邮箱。
+  
+    $ sudo apt-get install xclip  
+    $ cat ~/.ssh/id_rsa.pub | xclip -sel clip  
+    # 利用xclip将当前目录下/.ssh/id_rsa.pub中的公钥复制到剪贴板中。  
+  
+远程仓库的管理员登录至github并进入账户设置页面，选择SSH公钥选项页，然后点击添加新的公钥，在Title项中填入newuser@gmail.com，在Key项中粘贴刚才复制到剪贴板的公钥，最后点击Add Key按钮，这样新用户访问github中远程仓库所需的公钥就添加好了。  
+  
+   $ git config --global user.name "newuser"  
+   $ git config --global user.email newuser@gmail.com  
+   # 在本地设置新用户提交项目使用的用户名和邮箱。
+  
+   $ git clone git@github.com:gaolinjie/example.git
+   # 将github上gaolinjie用户的example仓库克隆到本地。
 
 
 
